@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+$brand-primary:                     #2C3E50;
+$brand-success:                     #18BC9C;
+$gray-lighter:                      lighten(#000, 93.5%);
+
+
+$body-bg:                           #ecf0f1;
+$font-family-sans-serif:            Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+$navbar-height:                     75px;
+$navbar-default-bg:                 #2C3E50;
+$navbar-border-radius:              0;
+$navbar-default-link-color:         white;
+$navbar-default-link-hover-color:   #ecf0f1;
+$navbar-default-brand-hover-color:  #ecf0f1;
+$navbar-padding-horizontal:         75px;
+$jumbotron-bg:                      white;
+
+
+@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
+
+.jumbotron {
+    margin-top: 20px;
+}
+
+#signup {
+    margin-top: 40px;
+    margin-right: 5px;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+}
