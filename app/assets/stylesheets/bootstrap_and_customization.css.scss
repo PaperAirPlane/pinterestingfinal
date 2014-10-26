@@ -60,6 +60,12 @@ $alert-success-text:                #3c763d;
     text-transform: uppercase;
 }
 
+.btn-primary:hover {
+    color: #1abc9c;
+    background:#2C3E50; 
+}
+    
+
 p {
     font-size: 20px;
 }
@@ -88,3 +94,13 @@ h6 {
     font-weight: 700;
 }
 
+.alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+ }
+
+#user_remember_me {
+    margin-left: 0px;
+}
