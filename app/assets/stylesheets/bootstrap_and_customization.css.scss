@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 $brand-primary:                     #2C3E50;
-$brand-success:                     #1abc9c;
 $gray-lighter:                      lighten(#000, 93.5%);
 
 
@@ -11,14 +10,15 @@ $navbar-height:                     75px;
 $navbar-default-bg:                 #2C3E50;
 $navbar-border-radius:              0;
 $navbar-default-link-color:         white;
-$navbar-default-link-hover-color:   #1abc9c;
-$navbar-default-brand-hover-color:  #1abc9c;
+$navbar-default-link-hover-color:   #5bc0de;
+$navbar-default-brand-hover-color:  #5bc0de;
 $navbar-padding-horizontal:         75px;
 $jumbotron-bg:                      white;
 
 $alert-success-bg:                  #dff0d8;
 $alert-success-text:                #3c763d;
 
+@import "bootstrap-sprockets";
 @import 'bootstrap';
 
 .center {
@@ -80,7 +80,8 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #5bc0de;
+    text-decoration: none;
 }
 
 h1,
