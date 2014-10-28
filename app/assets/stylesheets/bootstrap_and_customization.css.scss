@@ -14,6 +14,9 @@ $navbar-default-link-hover-color:   #5bc0de;
 $navbar-default-brand-hover-color:  #5bc0de;
 $navbar-padding-horizontal:         75px;
 $jumbotron-bg:                      white;
+$pagination-hover-color:            #5bc0de;
+$pagination-active-bg:              #5bc0de;
+$pagination-active-border:          #5bc0de;
 
 $alert-success-bg:                  #dff0d8;
 $alert-success-text:                #3c763d;
@@ -61,7 +64,7 @@ $alert-success-text:                #3c763d;
 }
 
 .btn-primary:hover {
-    color: #1abc9c;
+    color: #5bc0de;
     background:#2C3E50; 
 }
     
@@ -75,11 +78,15 @@ p.small {
 }
 
 a,
-a:hover,
 a:focus,
 a:active,
 a.active {
     outline: 0;
+    color: #2C3E50;
+    text-decoration: none;
+}
+
+a:hover {
     color: #5bc0de;
     text-decoration: none;
 }
